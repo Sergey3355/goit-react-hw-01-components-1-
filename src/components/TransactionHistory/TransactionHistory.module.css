@@ -1,0 +1,25 @@
+.transaction_history{
+    width: 50%;
+    margin: 20px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.header_columns {
+    background-color: rgb(2, 188, 217);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.rows {
+    text-align: center;
+}
+
+.rows:nth-child(even) {
+    background-color: rgb(231, 231, 231);
+}
+
