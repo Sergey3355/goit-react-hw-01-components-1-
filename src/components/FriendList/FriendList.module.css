@@ -1,37 +1,41 @@
-.friend_list{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.friend_list {
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
-.item{
-    height: 100px;
+.item {
+    height: 90px;
     display: flex;
     gap: 40px;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.5em;
     margin-top: 10px;
     padding-left: 15px;
-  
 }
 
-.avatar{
-    width: 80px;
-}
-
-.name{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.online{
-    background-color: green;
+.round {
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
 }
 
-.ofline{
+.online {
+    composes: round;
+    background-color: green;
+}
+
+.offline {
+    composes: round;
     background-color: red;
 }
 
+.avatar {
+    width: 70px;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 600;
+}

@@ -17,7 +17,7 @@ const UserProfile = ({ username, tag, location, avatar, stats }) => {
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{stats.followers}</span>
         </li>
-        <li>
+        <li className={css.middleLi}>
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{stats.views}</span>
         </li>
